@@ -1,12 +1,11 @@
-🩺 HistoPathological Cancer Detection using Deep Learning
+🩺 # HistoPathological Cancer Detection using Deep Learning
 This project applies Deep Learning techniques, specifically Convolutional Neural Networks (CNNs), to classify histopathological images of lung and colon tissues. It aims to detect and categorize different types of carcinomas and benign tissues with high accuracy.
 
-📌 Project Overview
+📌 # Project Overview
 The objective of this project is to build an automated classification system capable of distinguishing between five different tissue types associated with lung and colon cancer. The project utilizes PyTorch for building and training the model and includes techniques for model interpretability such as Grad-CAM.
 
-🎯 Key Features
+🎯 # Key Features
 Automated Data Pipeline: Downloads and restructures the Kaggle dataset automatically.
-
 Data Preprocessing: Resizing, Normalization, and data augmentation techniques.
 
 Deep Learning Model: Utilizes Transfer Learning with pre-trained CNN architectures (e.g., ResNet/EfficientNet) available in torchvision.
