@@ -61,11 +61,11 @@ The project uses the **Lung and Colon Cancer Histopathological Images** dataset 
 
 # Installation & Usage
 
-### Clone the Repository
+# Clone the Repository
 ```bash
 git clone https://github.com/yourusername/histopathological-cancer-detection.git
 cd histopathological-cancer-detection
-
+```
 
 # Methodology
 Data Loading: The script downloads the dataset via kagglehub and organizes the 5 sub-classes into a unified directory structure for easy loading with ImageFolder.
