@@ -68,25 +68,25 @@ cd histopathological-cancer-detection
 ```
 
 # Methodology
-Data Loading: The script downloads the dataset via kagglehub and organizes the 5 sub-classes into a unified directory structure for easy loading with ImageFolder.
-Preprocessing: Images are transformed to tensors, resized to 224×224 pixels, and normalized using standard ImageNet mean and standard deviation.
-Model Training: A Convolutional Neural Network is trained on the dataset using Cross-Entropy Loss and an optimizer (Adam).
-Evaluation: The model is tested on a validation set. A Confusion Matrix is plotted to visualize misclassifications, and a Classification Report provides detailed metrics per class.
-Interpretability: The project applies Grad-CAM to overlay heatmaps on the original images, highlighting the regions of the cell tissue that are most indicative of the disease.
+-Data Loading: The script downloads the dataset via kagglehub and organizes the 5 sub-classes into a unified directory structure for easy loading with ImageFolder.
+-Preprocessing: Images are transformed to tensors, resized to 224×224 pixels, and normalized using standard ImageNet mean and standard deviation.
+-Model Training: A Convolutional Neural Network is trained on the dataset using Cross-Entropy Loss and an optimizer (Adam).
+-Evaluation: The model is tested on a validation set. A Confusion Matrix is plotted to visualize misclassifications, and a Classification Report provides detailed metrics per class.
+-Interpretability: The project applies Grad-CAM to overlay heatmaps on the original images, highlighting the regions of the cell tissue that are most indicative of the disease.
 
 # Results
-Accuracy: Test Accuracy = 98.96 %
-Confusion Matrix: See the notebook outputs for a detailed breakdown of True Positives vs. False Negatives.
+-Accuracy: Test Accuracy = 98.96 %
+-Confusion Matrix: See the notebook outputs for a detailed breakdown of True Positives vs. False Negatives.
 
 # Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 # Fork the project.
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-Commit your Changes (git commit -m 'Add some AmazingFeature').
-Push to the Branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+-Create your Feature Branch (git checkout -b feature/AmazingFeature).
+-Commit your Changes (git commit -m 'Add some AmazingFeature').
+-Push to the Branch (git push origin feature/AmazingFeature).
+-Open a Pull Request.
 
 # 📜License
 This project is licensed under the MIT License - see the LICENSE file for details.
